@@ -4,7 +4,7 @@
     "agentMessage": "Customer greets the agent and wants to book a junior suite.",
     "agentType": "Booking",
     "agentRating": "50%",
-    "agentHazards": ["None"]
+    "agentHazards": ["ListItem1", "ListItem2"]
   },
   "aiReplies": [
     "Hello There, How can I help you today?",

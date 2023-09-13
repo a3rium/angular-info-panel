@@ -17,7 +17,7 @@
         </div>
         <div>
             <div mat-card-avatar class="hazard-avatar-image avatar"></div>
-            <p>{{agentSummary.agentHazards}}</p>
+            <p><span *ngFor="let item of agentSummary.agentHazards; last as isLast">{{item}}<span *ngIf="!isLast">, </span></span></p>
         </div>
     </mat-card-content>
 </mat-card>
