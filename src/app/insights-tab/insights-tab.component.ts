@@ -22,15 +22,14 @@ import { InsightData } from '../shared/models/InsightData';
 })
 export class InsightsTabComponent {
   insightData: InsightData = data;
+  inputData: string = JSON.stringify(this.insightData, null, 2);
+
+  updateInput(value: string) {
+    this.inputData = value;
+  }
 
   changeInsightData() {
-    this.insightData = {
-      ...this.insightData,
-      agentSummary: {
-        ...this.insightData.agentSummary,
-        agentRating: '100%',
-      },
-    };
-    console.log(this.insightData);
+    console.log(this.inputData);
+    if (this.inputData != '') this.insightData = JSON.parse(this.inputData);
   }
 }

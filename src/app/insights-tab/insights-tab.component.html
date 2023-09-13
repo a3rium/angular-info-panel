@@ -5,4 +5,5 @@
     <app-recommendations [recommendations]="insightData.recommendations"/>
 </div>
 <p><a href="https://www.flaticon.com/free-icons/robot" title="robot icons">Robot icons created by Freepik - Flaticon</a></p>
+<textarea #input (blur)="updateInput(input.value)" [value]="inputData" style="width: 50%; height: 200px;"></textarea>
 <button (click)="changeInsightData()">Change Data</button>
