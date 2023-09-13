@@ -1,0 +1,12 @@
+<mat-card>
+    <mat-card-header>
+        <mat-card-title>AI Replies</mat-card-title>
+    </mat-card-header>
+    <mat-card-content>
+        <div>
+            <mat-chip-listbox>
+                <mat-chip *ngFor="let reply of aiReplies" >{{reply}}</mat-chip>
+            </mat-chip-listbox>
+        </div>
+    </mat-card-content>
+</mat-card>

@@ -1,1 +1,49 @@
 /* You can add global styles to this file, and also import other style files */
+
+html,
+body {
+  height: 100%;
+  background-color: #c0c0c0;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.mat-mdc-card-header {
+  margin-bottom: 5px;
+}
+
+.mat-mdc-card-title {
+  min-width: 150px;
+  height: 35px;
+  line-height: 35px !important;
+  padding: 0px 5px 0px 5px;
+  background-color: rgb(103, 58, 183);
+  border-radius: 15px;
+  text-align: center;
+  color: white;
+}
+
+.mat-mdc-card-avatar {
+  margin-bottom: 0px !important;
+}
+
+.avatar {
+  background-size: cover !important;
+  width: 35px !important;
+  height: 35px !important;
+  font-size: 35px !important;
+  float: left !important;
+}
+
+.mat-mdc-card-content > div {
+  margin-bottom: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.mat-mdc-card-content div > p {
+  margin-left: 10px;
+  margin-bottom: 0px !important;
+}

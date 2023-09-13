@@ -1,0 +1,15 @@
+{
+  "aiSummary": "The customer wants to speak to an agent. The IVA connects them to an agent.",
+  "agentSummary": {
+    "agentMessage": "Customer greets the agent and wants to book a junior suite.",
+    "agentType": "Booking",
+    "agentRating": "50%",
+    "agentHazards": ["None"]
+  },
+  "aiReplies": [
+    "Hello There, How can I help you today?",
+    "Hi There, Welcome to C1. How can I help you?",
+    "Hi, it's nice to meet you, How can I help you with your reservation?"
+  ],
+  "recommendations": "Mrs. Smith, based on your preferences, I'd recommend upgrading from a Junior Suite to a Full Suite with a 420 ft balcony for an additional $38 per night. You can also add daily morning coffee service delivery to the Junior Suite for $22 per day. Would you like to add these optional services to your reservation?"
+}

@@ -1,0 +1,8 @@
+<div class="info-container">
+    <app-ai-summary [aiSummary]="insightData.aiSummary" />
+    <app-agent-summary [agentSummary]="insightData.agentSummary"/>
+    <app-ai-replies [aiReplies]="insightData.aiReplies" />
+    <app-recommendations [recommendations]="insightData.recommendations"/>
+</div>
+<p><a href="https://www.flaticon.com/free-icons/robot" title="robot icons">Robot icons created by Freepik - Flaticon</a></p>
+<button (click)="changeInsightData()">Change Data</button>
