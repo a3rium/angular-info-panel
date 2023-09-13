@@ -26,7 +26,10 @@ export class InsightsTabComponent {
   changeInsightData() {
     this.insightData = {
       ...this.insightData,
-      recommendations: 'New recommendations...',
+      agentSummary: {
+        ...this.insightData.agentSummary,
+        agentRating: '100%',
+      },
     };
     console.log(this.insightData);
   }
